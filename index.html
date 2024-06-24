@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="/assets/Logo.svg" alt="Logo AluraGeek">
+    </header>
+
+    <main>
+        <section id="produtos">
+            <h1>Meus Produtos</h1>
+            <article id="card" data-products>
+                <div id="cartoes">
+                    <img src="assets/Skill.jpg" alt="" id="produto_img">
+                    <p id="card_name">Game Boy Classic</p>
+                    <div>
+                        <p id="card_valor">$ 60,00</p>
+                        <img src="" alt="" id="lixo">
+                    </div>
+                </div>
+            </article>
+        </section>
+
+
+
+        <section id="formulario_produtos">
+            <h1>Adicionar Produtos:</h1>
+
+            <form action="" data-form id="formulario">
+                <fieldset>
+                    <label for="campo_nome">
+                        <input type="text" data-name name="campo_nome" placeholder="nome..." id="campo_nome" minlength="6"  required >
+                    </label>
+                    <label for="campo_valor">
+                        <input type="text"data-price name="campo_valor" id="campo_valor" placeholder="valor..." required>
+                    </label>
+                    <label for="campo_imagem">
+                        <input type="text" data-image name="campo_imagem" id="campo_imagem" placeholder="imagem..." required>
+                    </label>
+                </fieldset>
+                    
+                <div id="botoes">
+                    <button type="submit">Guardar</button>
+                    <button type="submit">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <img src="/assets/Logo.svg" alt="Logo AluraGeek">
+        <p>DESENVOLVIDO POR CRYSTIAN TASCA</p>
+        <p>ALURA LATAM- 202X</p>
+    </footer>
+</body>
+<script type="module" src="/script.js"></script>
+</html>
